@@ -162,7 +162,11 @@ address {
   align-items: center;
   background-color: #2e2f42;
   padding-top: 188px;
-  padding-bottom: 188px;
+  padding-bottom: 188px;  
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),  url(../images/hero/people-office\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -318,6 +322,7 @@ address {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 .footer-wrapp {
   display: flex;
